@@ -78,9 +78,17 @@ justify-content:space-between;
 }
 li{
     margin: 15px;
-    border: 2px white solid;
+    border: 1px #4E514E solid;
     padding: 8px;
     border-radius: 30px;
     justify-content: center;
     text-decoration: none;
+    background-color: #4E514E;
+}
+.menu a{
+    text-decoration: none;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
 }
