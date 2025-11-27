@@ -83,7 +83,12 @@ li{
     border-radius: 30px;
     justify-content: center;
     text-decoration: none;
+    box-shadow: 0 0 500px #D8CEC5, 0 0 10px #D8CEC5, 0 0 1px #D8CEC5, 0 0 10px #D8CEC5;
     background-color: #4E514E;
+    transition: all 0.3s ease-in-out;
+}
+li:hover{
+    box-shadow: 0 0 500px #D8CEC5, 0 0 10px #D8CEC5, 0 0 1px #D8CEC5, 0 0 50px #D8CEC5;
 }
 .menu a{
     text-decoration: none;
