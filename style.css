@@ -53,5 +53,34 @@
 body{
     color: white;
     background-color: black;
-    
+}
+
+nav
+{
+    top: 0;
+    position: sticky;
+    display: flex;
+justify-content:space-between;
+    left: 0;
+    width: 100%;
+    align-items: center;
+}
+.name{
+    margin-left: 10px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+li{
+    margin: 15px;
+    border: 2px white solid;
+    padding: 8px;
+    border-radius: 30px;
+    justify-content: center;
+    text-decoration: none;
 }
