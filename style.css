@@ -13,19 +13,33 @@
   font-weight: 400;
   font-style: normal;
 }
-
-
+/*About me section styling*/
 .about-me
 {
     display: flex;;
 }
 
 
+/*Right side of anout me section*/
 .right
 {
     border: 2px solid black;
     height: 100vh;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:center
+}
+.right img{
+    width: 300px;
+    height: auto;
+    margin-top: 15vh;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #86ABC5, 0 0 20px #86ABC5, 0 0 30px #86ABC5, 0 0 40px #86ABC5;
+    transition: all 0.3s ease-in-out;
+}
+.right img:hover{
+    box-shadow: 0 0 30px #86ABC5, 0 0 40px #86ABC5, 0 0 50px #86ABC5, 0 0 60px #86ABC5;
 }
 /*About me left side styling*/
 .left
@@ -38,7 +52,7 @@
     align-items: center;
 }
 .left h1{ 
-    margin-top: 21vh;
+    margin-top: 18vh;
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -70,12 +84,12 @@
     height: 100vh;
     width: 50%;
 }
-
+/*The body styling*/
 body{
     color: white;
     background-color: black;
 }
-
+/*Navbar style*/
 nav
 {
     top: 0;
@@ -91,6 +105,7 @@ justify-content:space-between;
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
     font-style: normal;
+    animation: glow 5s ease-in-out infinite alternate;
 }
 .menu ul{
     display: flex;
