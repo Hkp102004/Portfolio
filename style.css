@@ -38,6 +38,13 @@
     box-shadow: 0 0 10px #86ABC5, 0 0 20px #86ABC5, 0 0 30px #86ABC5, 0 0 40px #86ABC5;
     transition: all 0.3s ease-in-out;
 }
+.right h1{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    animation: glow 5s ease-in-out infinite alternate;
+}
 .right img:hover{
     box-shadow: 0 0 30px #86ABC5, 0 0 40px #86ABC5, 0 0 50px #86ABC5, 0 0 60px #86ABC5;
 }
