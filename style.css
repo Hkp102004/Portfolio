@@ -14,13 +14,17 @@
   font-weight: 400;
   font-style: normal;
 }
+
+
+
+
+
+
 /*About me section styling*/
 .about-me
 {
     display: flex;;
 }
-
-
 /*Right side of anout me section*/
 .right
 {
@@ -77,6 +81,10 @@
     margin-left: 73px;
 }
 
+
+
+
+
 /*styling the skills sections of the code*/ 
 .skills
 {
@@ -87,6 +95,25 @@
     border: 2px solid white;
     height: 80vh;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.firstcol{
+    display: flex;
+    justify-content:space-evenly;
+}
+.secondcol{
+    display: flex;
+    justify-content: space-evenly;
+}
+.thirdcol{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .left2      /*left side of skills section*/
@@ -116,6 +143,12 @@
     justify-content: center;
     text-align: center;
 }
+
+
+
+
+
+
 /*The body styling*/
 body{
     color: white;
