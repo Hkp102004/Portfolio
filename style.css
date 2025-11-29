@@ -88,14 +88,33 @@
     height: 80vh;
     width: 50%;
 }
-.left2
+
+.left2      /*left side of skills section*/
 {
     border: 2px solid white;
     height: 80vh;
     width: 50%;
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.left2 h1{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    animation: glow 2s ease-in-out infinite alternate;
+    margin-top: 25vh
+}
+.left2 p{
+    font-family: "Electrolize", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    width: 600px;
     justify-content: center;
+    text-align: center;
 }
 /*The body styling*/
 body{
