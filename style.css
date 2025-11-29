@@ -116,6 +116,18 @@
     justify-content: space-evenly;
 }
 
+.stylebox{
+    border: 2px solid white;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #86ABC5;
+    color: black;
+    opacity: 60%;
+    transition: all 0.3s ease-in-out;
+}
+
 .left2      /*left side of skills section*/
 {
     border: 2px solid white;
