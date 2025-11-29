@@ -1,3 +1,4 @@
+/*Font families that will be used*/
 .acme-regular {
   font-family: "Acme", sans-serif;
   font-weight: 400;
@@ -24,7 +25,7 @@
 .right
 {
     border: 2px solid black;
-    height: 100vh;
+    height: 80vh;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -52,7 +53,7 @@
 .left
 {
     border: 2px solid black;
-    height: 100vh;
+    height: 80vh;
     width: 50%;
     display:list-item;
     text-align:center;
@@ -75,21 +76,26 @@
     align-self: center;
     margin-left: 73px;
 }
+
+/*styling the skills sections of the code*/ 
 .skills
 {
-    display: flex;;
+    display: flex;
 }
 .right2
 {
-    border: 2px solid black;
-    height: 100vh;
+    border: 2px solid white;
+    height: 80vh;
     width: 50%;
 }
 .left2
 {
-    border: 2px solid black;
-    height: 100vh;
+    border: 2px solid white;
+    height: 80vh;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 /*The body styling*/
 body{
@@ -140,6 +146,9 @@ li:hover{
     font-style: normal;
     color:white;
 }
+
+
+/*The glowing text animation*/
 @keyframes glow{
     from{
         text-shadow: 0 0 10px #86ABC5, 0 0 20px #86ABC5, 0 0 30px #86ABC5, 0 0 40px #86ABC5, 0 0 50px #86ABC5, 0 0 60px #86ABC5, 0 0 70px #86ABC5;
