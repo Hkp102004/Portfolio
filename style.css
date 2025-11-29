@@ -120,7 +120,7 @@
 }
 
 .stylebox{
-    border: 2px solid white;
+    border: 2px solid #86ABC5;
     width: 250px;
     text-align: center;
     padding: 15px;
@@ -130,9 +130,12 @@
     opacity: 60%;
     transition: all 0.3s ease-in-out;
     cursor:default;
+    animation: autoblur linear both;
+    animation-timeline: view(50% auto);
 }
 .stylebox:hover{
     opacity: 90%;
+     box-shadow: 0 0 30px #4E514E, 0 0 40px #4E514E, 0 0 50px #4E514E, 0 0 60px #4E514E; 
 }
 
 .left2      /*left side of skills section*/
@@ -180,10 +183,11 @@ nav
     top: 0;
     position: sticky;
     display: flex;
-justify-content:space-between;
+    justify-content:space-between;
     left: 0;
     width: 100%;
     align-items: center;
+    z-index: 100;;
 }
 .name{
     margin-left: 10px;
@@ -220,12 +224,26 @@ li:hover{
 }
 
 
-/*The glowing text animation*/
+
+
+/*Animations*/
+
+/*Text glow animation*/
 @keyframes glow{
     from{
         text-shadow: 0 0 10px #86ABC5, 0 0 20px #86ABC5, 0 0 30px #86ABC5, 0 0 40px #86ABC5, 0 0 50px #86ABC5, 0 0 60px #86ABC5, 0 0 70px #86ABC5;
     }
     to{
         text-shadow: 0 0 20px #86ABC5, 0 0 30px #86ABC5, 0 0 40px #86ABC5, 0 0 50px #86ABC5, 0 0 60px #86ABC5, 0 0 70px #86ABC5, 0 0 80px #86ABC5;
+    }
+}
+
+/*Auto blur animation*/
+@keyframes autoblur{
+    0%{
+        filter: blur(20px);
+    }
+    60%{
+        filter: blur(0px);
     }
 }
