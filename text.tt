@@ -1,0 +1,14 @@
+<div class="contacts" id="contacts"> <!--contacts flexbox-->  
+            <div class="linkedin">
+                <img src="images/linkedin.png">
+                <p>Harsh</p>
+            </div>
+            <div class="insta">
+                <img src="images/insta.png">
+                <p>Harsh1506200437</p>
+            </div>
+            <div class="youtube">
+                <img src="images/youtube.png">
+                <p>Pixel Spang</p>
+            </div>
+        </div>
