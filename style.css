@@ -94,7 +94,7 @@
 }
 .right2
 {
-    border: 2px solid white;
+    border: 2px solid black;
     height: 80vh;
     width: 50%;
     display: flex;
@@ -144,7 +144,7 @@
 
 .left2      /*left side of skills section*/
 {
-    border: 2px solid white;
+    border: 2px solid black;
     height: 80vh;
     width: 50%;
     display: flex;
@@ -247,7 +247,7 @@ li:hover{
     0%{
         filter: blur(20px);
     }
-    60%{
+    50%{
         filter: blur(0px);
     }
 }
