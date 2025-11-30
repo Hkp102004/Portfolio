@@ -384,7 +384,12 @@ li:hover{
     padding: 5px;
     border-radius: 30px;
     background-color: #76B947;
-    color:white;
+    color:black;
+    transition: all 0.3s ease-in-out;
+}
+.prjbox a:hover{
+    background-color: black;
+    color: #76B947
 }
 
 
