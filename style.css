@@ -416,8 +416,22 @@ li:hover{
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
+.linkedin{
+    display: flex;
+    align-items: center;
+}
+.insta{
+    display: flex;
+    align-items: center;
+}
+.youtube{
+    display: flex;
+    align-items: center;
+}
 
 
 
