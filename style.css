@@ -368,12 +368,12 @@ li:hover{
     border-radius: 20px;
     background-color: #86ABC5;
     color: black;
-    opacity: 70%;
     transition: all 0.3s ease-in-out;
     cursor: default;
 }
 .languages h4:hover{
-    opacity: 90%;
+    background-color: black;
+    color: #86ABC5;
 }
 .prjbox a{
     text-decoration: none;
