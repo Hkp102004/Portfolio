@@ -439,6 +439,10 @@ li:hover{
 .contacts a{
     text-decoration: none;
     color: white;
+    transition: all 0.3s ease-in-out;
+}
+.contacts a:hover{
+    color: #76B947;
 }
 
 
