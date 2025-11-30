@@ -337,6 +337,7 @@ li:hover{
 .pro img{
     height: 200px;
     width: auto;
+    border-radius: 15px;
 }
 .prjbox{
     border: 2px solid white;
@@ -346,8 +347,24 @@ li:hover{
     align-items: center;
     padding: 15px;
     border-radius: 30px;
-
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+.languages{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%
+}
+.languages h4{
+    border: 2px solid white;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: #86ABC5;
+    color: black;
+    opacity: 70%;
+}
+
 
 
 
