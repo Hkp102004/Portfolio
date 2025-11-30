@@ -304,6 +304,7 @@ li:hover{
     /* height: 100vh; */
     width: 100%;
     margin-top: 30vh;
+    cursor: default;
 }
 .pro h1{
     font-family: "Audiowide", sans-serif;
@@ -323,14 +324,17 @@ li:hover{
     text-align: center;
 }
 .firstrow{
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
 .secondrow{
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
 .thirdrow{
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -351,6 +355,7 @@ li:hover{
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #4E514E;
 }
 .languages{
     display: flex;
@@ -365,11 +370,22 @@ li:hover{
     color: black;
     opacity: 70%;
     transition: all 0.3s ease-in-out;
+    cursor: default;
 }
 .languages h4:hover{
     opacity: 90%;
 }
-
+.prjbox a{
+    text-decoration: none;
+    border: 2px solid white;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #76B947;
+    color:white;
+}
 
 
 
