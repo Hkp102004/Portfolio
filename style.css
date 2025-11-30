@@ -343,6 +343,10 @@ li:hover{
     width: auto;
     border-radius: 15px;
     border: 2px solid white;
+    transition: all 0.5s ease-in-out;
+}
+.pro img:hover{
+    box-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black, 0 0 40px black;
 }
 .prjbox{
     border: 2px solid white;
