@@ -405,6 +405,23 @@ li:hover{
 
 
 
+
+
+/*Contacts section*/
+.contacts img{
+    width: 30px;
+    height: auto;
+}
+.contacts{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+
+
+
+
 /*Animations*/
 
 /*Text glow animation*/
