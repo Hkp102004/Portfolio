@@ -322,6 +322,24 @@ li:hover{
     width: 100%;
     text-align: center;
 }
+.firstrow{
+    display: flex;
+}
+.secondrow{
+    display: flex;
+}
+.thirdrow{
+    display: flex;
+}
+.pro img{
+    height: 200px;
+    width: auto;
+}
+.prjbox{
+    border: 2px solid white;
+    width: 45vh;
+    
+}
 
 
 
